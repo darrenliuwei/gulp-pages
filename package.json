@@ -1,0 +1,35 @@
+{
+  "name": "gulp-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "gulp-pages",
+    "zce"
+  ],
+  "repository": "darrenliuwei/gulp-pages",
+  "license": "MIT",
+  "author": "darrenliuwei <darrenliuwei@gmail.com> (https://darrenliuwei.com)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
