@@ -10,8 +10,10 @@
   "license": "MIT",
   "author": "darrenliuwei <darrenliuwei@gmail.com> (https://darrenliuwei.com)",
   "main": "lib/index.js",
+  "bin": "bin/gulp-pages.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "scripts": {
     "lint": "standard --fix",
@@ -22,7 +24,25 @@
       "zce"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "6.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^5.0.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.0"
+  },
   "devDependencies": {
     "standard": "16.0.3"
   },
