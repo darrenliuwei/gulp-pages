@@ -1,4 +1,4 @@
-# gulp-pages
+# gulp-pages-darren
 
 [![License][license-img]][license-url]
 [![NPM Downloads][downloads-img]][downloads-url]
@@ -7,49 +7,38 @@
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
-> Awesome node modules.
+> 一个 gulp 打包工具
 
 ## Installation
 
 ```shell
-$ npm install gulp-pages
+$ npm i gulp-pages -D
 
 # or yarn
-$ yarn add gulp-pages
+$ yarn add gulp-pages -D
 ```
 
 ## Usage
 
 <!-- TODO: Introduction of Usage -->
 
-```javascript
-const gulpPages = require('gulp-pages')
-const result = gulpPages('w')
-// result => 'w@zce.me'
+清理临时文件和打包之后的文件
+
+```shell
+$ gulp-pages-darren clean
 ```
 
-## API
+开发时运行
 
-<!-- TODO: Introduction of API -->
+```shell
+$ gulp-pages-darren develop
+```
 
-### gulpPages(input, options?)
+打包时运行
 
-#### input
-
-- Type: `string`
-- Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
-
-## Related
-
-- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
+```shell
+$ gulp-pages-darren build
+```
 
 ## Contributing
 
@@ -65,8 +54,6 @@ const result = gulpPages('w')
 ## License
 
 [MIT](LICENSE) &copy; [darrenliuwei](https://darrenliuwei.com)
-
-
 
 [license-img]: https://img.shields.io/github/license/darrenliuwei/gulp-pages
 [license-url]: https://github.com/darrenliuwei/gulp-pages/blob/master/LICENSE
