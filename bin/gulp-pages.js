@@ -6,4 +6,3 @@ process.argv.push("--gulpfile");
 process.argv.push(require.resolve(".."));
 
 require("gulp/bin/gulp");
-console.log("gulp-pages");
